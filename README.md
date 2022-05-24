@@ -1,64 +1,31 @@
-# STORE-PARTS-EXERCISE
 
-Hello there!
-If you're here, chances are somebody at Mozantech thinks you're talented.
-This exercise is part of our recruitment process. 
-It is designed to help us understand some of your competencies before moving forward.
-## Goal
+# Store Parts
 
-We have a few requirements for you to follow but we want you to build this with your own style and ideas.
+Building a store webapp which would show some products that each have different propierties that may be needed for the client.
 
-The main goal of the exercise is to build a Single Page Application to extend this super robust API. 
 
-ᕕ༼ ຈل͜ຈ༽ ᕗ 
+## Installation
 
-What you must have:
+Installed and run with different terminals one runing the backend ./store-parts-exercise and the other you can find it on the folder called ./frontend.
+Run inside both folder either npm or yarn .
 
-- Two different routes
-- The possibility to order by price implemented on the SPA side
-- A way to request different parts by type
-- The ability to request different search queries on typing
-- Create a public repo to share your work with us
-- An accurate README to show us how to run your app
-- You should not change this service
 
-What we value:
 
-- Static typing
-- Eslint
-- Unit tests
-- Your unique skills
 
-Please note that there is no harm if you are not able to meet any of these points. If you are not into designing, a simple UI like this is more than enough for the exercise as long as you add some colors.
+```bash
+    npm install
+    npm run 
 
-Good luck! ♨(⋆‿⋆)♨
+    yarn install
+    yarn run
+```    
+## Tech Stack
 
-#### Main page
+**Client:** React, Axios, ChakraUI
 
-![Main Page](assets/main-page.jpg "Main Page")
+**Server:** Node
 
-#### Parts page
 
-![Part Page](assets/parts-page.jpg "Part Page")
+## Authors
 
-## API Documentation
-
-To run the API you will just need the basics.
-
-```
-yarn
-yarn start
-```
-
-or
-
-```
-npm install
-npm run start
-```
-
-You should be able to see the service starting on port `8081`. After that, you would be able to access the following enpoints:
-
-- `/store/parts` to get the all the parts Here you can use the query params `type` and `query` to filter the parts either by type, your query or both.
-
-- `/store/part-types` to get the part types
+- [@alexola](https://github.com/alexola)
